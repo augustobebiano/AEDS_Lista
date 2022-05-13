@@ -19,7 +19,7 @@ Crie uma lista linear que consiga armazenar um conjunto de 100 nomes quaisquer, 
 
 Ao se remover um nome da lista, é colocado no lugar uma string vazia "", dessa forma, para fazer uma nova inserção, basta fazer uma pesquisa pela lista para encontrar aquelas posições em que essas strings vazias se encontram, colocando o novo novo nome que deseha inserir na posição encontrada.
 
-## Desenvlvimento
+## Desenvolvimento
 
 <p align="justify">
 Primeiramente, é criado um arquivo com 100 nomes, dentre eles algumas repetições, e uma struct Lista, que possui um vetor do tipo Item, com 100 posições, para receber todos os nomes do arquivo.
