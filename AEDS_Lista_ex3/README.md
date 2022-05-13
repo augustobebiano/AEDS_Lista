@@ -16,7 +16,7 @@ ACGTGGCTCTCTAACGTACGTACGTACGGGGTTATATTCGAT) e tente identificar a
 maior cadeia da lista que se relaciona a essa entrada.
 </p>
 
-## Desenvlvimento
+## Desenvolvimento
 
 <p align="justify">
 Primeiramente, é criado um arquivo com uma grande cadeia de DNA, composta pelas caracteres A, C, G e T, e outro arquivo contendo uma cadeia menos, também com os mesmos caracteres. É criado também uma struct Lista, que possui um vetor do tipo Item, que receberá as cadeias de DNA.
