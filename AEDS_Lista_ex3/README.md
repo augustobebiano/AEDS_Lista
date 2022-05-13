@@ -19,33 +19,24 @@ maior cadeia da lista que se relaciona a essa entrada.
 ## Desenvlvimento
 
 <p align="justify">
-Primeiramente, é criado um arquivo com 100 nomes, dentre eles algumas repetições, e uma struct Lista, que possui um vetor do tipo Item, com 100 posições, para receber todos os nomes do arquivo.
+Primeiramente, é criado um arquivo com uma grande cadeia de DNA, composta pelas caracteres A, C, G e T, e outro arquivo contendo uma cadeia menos, também com os mesmos caracteres. É criado também uma struct Lista, que possui um vetor do tipo Item, que receberá as cadeias de DNA.
+É criada então duas listas vazias, cujos ponteiros de primeira e ultima posição ambos apontam para a primeira posição. Em seguida, é feita a leitura dos arquivo e cada cadeia será salva em uma das listas, salvando os caracteres lidos no vetor das listas agrupados em tríades (3 em 3).
+Após imprimir as duas cadeias completas, é feita uma pesquisa para encontrar tríades coincidentes entre as duas cadeias. Caso sejam encontradas, é analisado qual a maior sequência de tríades comum a ambas.
 </p>
 
 
 <p align="center">
-<img src="images/listanomes.png"/> 
+<img src="images/maiorcadeia.png"/> 
 </p>
 
 
 <p align="justify">
-É criada então uma lista vazia, cujos ponteiros de primeira e ultima posição ambos apontam para a primeira posição. Em seguida, é feita a leitura do arquivo e os nomes lidos são salvos no vetor da lista.
-Após imprimir a lista de nomes completa, é feita uma pesquisa para encontrar possíveis repetições nesses nomes. Caso sejam encontradas, estas cópias serão removidas, deixando no lugar do nome uma string vazia "".
+Por fim, a maior sequência comum encontrada é impressa.
 </p>
 
 
 <p align="center">
-<img src="images/removerreplica.png"/> 
-</p>
-
-
-<p align="justify">
-Por fim, é impressa novamente a lista de nomes, porém dessa vez saltando as posições cujo vetor possui uma string vazia "", apresentando assim a lista apenas com os nomes sem repetição.
-</p>
-
-
-<p align="center">
-<img src="images/printnomes.png"/> 
+<img src="images/printcadeia.png"/> 
 </p>
 
 
