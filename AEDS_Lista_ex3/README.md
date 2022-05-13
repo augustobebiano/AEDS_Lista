@@ -1,5 +1,5 @@
 
-# Exercício 02: Réplicas de nomes
+# Exercício 03: Cadeia de DNA
 
 <div style="display: inline-block;">
 <img align="center" height="20px" width="60px" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/> 
@@ -9,15 +9,12 @@
 ## Problema
 
 <p align="justify">
-Crie uma lista linear que consiga armazenar um conjunto de 100 nomes quaisquer, os quais serão salvos de forma aleatória. Feito a estrutura crie as seguintes ações:
+O problema da máxima cadeia. Elabore um programa que receba uma cadeias de
+DNA. Cada posição da cadeia deve conter um códon, ou seja, uma triade de nucleotídeos → T,
+A, G, C. Feito isso, leia de um arquivo uma sequência de nucleotídios (i.e.,
+ACGTGGCTCTCTAACGTACGTACGTACGGGGTTATATTCGAT) e tente identificar a
+maior cadeia da lista que se relaciona a essa entrada.
 </p>
-
-* Uma função que consiga identificar replicações na lista, ou seja, nomes iguais. Remova todas as réplicas sem mover os ”ponteiro“
-* Como você gerenciaria os espaços em branco para novas inserções? Qual seria o custo dessas novas inserções?
-
-### Resposta
-
-Ao se remover um nome da lista, é colocado no lugar uma string vazia "", dessa forma, para fazer uma nova inserção, basta fazer uma pesquisa pela lista para encontrar aquelas posições em que essas strings vazias se encontram, colocando o novo novo nome que deseha inserir na posição encontrada.
 
 ## Desenvlvimento
 
