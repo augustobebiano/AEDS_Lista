@@ -52,7 +52,7 @@ Por fim, é impressa novamente a lista de nomes, porém dessa vez saltando as po
 </p>
 
 
-# Compilação e Execução
+## Compilação e Execução
 
 A lista linear disponibilizada possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
 
