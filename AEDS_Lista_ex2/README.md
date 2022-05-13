@@ -47,7 +47,7 @@ Por fim, é impressa novamente a lista de nomes, porém dessa vez saltando as po
 
 
 <p align="center">
-<img src="images/printnome.png"/> 
+<img src="images/printnomes.png"/> 
 </p>
 
 
